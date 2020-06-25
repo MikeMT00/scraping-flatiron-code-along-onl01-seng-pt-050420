@@ -31,11 +31,11 @@ class Scraper
    self.make_courses
    Course.all.each do |course|
 
-     end	  
-   end	 
- end	
+     end
+   end
+ end
 
-end	
+end
 
 
 
