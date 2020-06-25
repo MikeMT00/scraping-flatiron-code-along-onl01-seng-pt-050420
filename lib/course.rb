@@ -5,7 +5,7 @@ require 'pry'
 
 require_relative './course.rb'
 
- 
+
 class Scraper
 
   def get_page
@@ -26,4 +26,3 @@ class Scraper
       course.description = post.css("p").text
     end
   end
-
